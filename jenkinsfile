@@ -3,7 +3,7 @@ pipeline {
 
    tools {
       maven "maven"
-      jdk "jdk 8"
+      jdk "java jdk"
                 
    }
 
@@ -11,7 +11,7 @@ pipeline {
       stage('Build') {
          steps {
     
-            git 'https://github.com/sidvijay18/tomcat_pipeline.git'
+            git 'https://github.com/abhay4291/maven.git'
 
              bat "mvn package"
          }
@@ -19,4 +19,4 @@ pipeline {
       }
    }
 }
-© 2020 GitHub, Inc.
+
