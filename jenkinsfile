@@ -13,7 +13,7 @@ pipeline {
     
             git 'https://github.com/abhay4291/maven.git'
 
-             bat "mvn package"
+             bat "complete\mvn package"
          }
 
       }
